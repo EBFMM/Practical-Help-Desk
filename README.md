@@ -1,1 +1,1 @@
-# Practical-Help-Desk-Troubleshooting
+# Practical Help Desk Troubleshooting
