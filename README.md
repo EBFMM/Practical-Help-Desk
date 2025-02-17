@@ -8,4 +8,6 @@ Solution Methodology:
 2. Verify both outlet and power bar are functioning properly, could plug in a known working device to test.
 3. Open computer case, check for any damage to power button and verify the connections from the physical power button to MOBO are connected, try unplugging nd re-plugging them. If that doesn't work consult manual to verify the power ON pins and try to manually jumper them.
 4. Check CMOS battery and reset CMOS either by unplugging battery or using the jumpers.
-5. Check PSU connections to MOBO are okay, visually inspect PSU for any visible signs of damage. 
+5. Check PSU connections to MOBO are okay, visually inspect PSU for any visible signs of damage.
+6. Test PSU or if that is out of scope of duties replace with known functioning PSU.
+7. Test MOBO or if that is out of scope of duties replace with known good MOBO.
