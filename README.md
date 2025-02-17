@@ -5,3 +5,4 @@
 
 Solution Methodology:
 1. Check power cable is correctly plugged in, if plugged into an extension (power bar) check that it hasn't been powered off and check PSU power switch is in ON position.
+2. Verify both outlet and power bar are functioning properly, could plug in a known working device to test.
