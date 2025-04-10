@@ -11,3 +11,13 @@ Solution Methodology:
 5. Check PSU connections to MOBO are okay, visually inspect PSU for any visible signs of damage.
 6. Test PSU or if that is out of scope of duties replace with known functioning PSU.
 7. Test MOBO or if that is out of scope of duties replace with known good MOBO.
+<br>
+
+> **Ticket #4561933:** Add user to Windows computer
+> <br><br>**Assigned:** Admin&nbsp; **Created:** 02/15/2025&nbsp; **Status:** Open
+> <br><br> **Comment:** Hello admin, could you please add a local user "Richard" to the Windows computer. Create the account so that the user will have to change their password the first time they login. In addition, please make the user a local administrator.
+
+Solution Methodology:
+1. The local users and groups management service (lusrmgr) allows us to perform administrative tasks on a local computer. 
+2. ddd
+3. ddd
