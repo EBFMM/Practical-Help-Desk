@@ -18,6 +18,7 @@ Solution Methodology:
 > <br><br> **Comment:** Hello admin, could you please add a local user "Richard" to the Windows computer. Create the account so that the user will have to change their password the first time they login. In addition, please make the user a local administrator.
 
 Solution Methodology:
-1. The local users and groups management service (lusrmgr) allows us to perform administrative tasks on a local computer. 
-2. ddd
-3. ddd
+1. The local users and groups manager service (lusrmgr) allows us to perform administrative tasks on a Windows computer as a local administrator user. Open the Run dialog --> search 'lsrmgr.msc'.
+2. In 'Users' Folder right click to create a new user named 'Richard', set a password and make sure the option 'User must change password at next logon' is checked.
+3. In 'Groups' Folder select the 'Administrators' group and add Richard to the group. Ensure to select 'apply' to these changes.
+4. Restart the computer. Once logged into new user, verify the user's adminstrative privileges by opening the command line as an administrator (right click) and accepting UAC prompt.
