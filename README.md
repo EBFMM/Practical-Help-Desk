@@ -13,7 +13,7 @@ Solution Methodology:
 7. Test MOBO or if that is out of scope of duties replace with known good MOBO.
 <br>
 
-> **Ticket #4561933:** Add user to Windows computer
+> **Ticket #4561933:** Add User to Windows Computer
 > <br><br>**Assigned:** Admin&nbsp; **Created:** 02/15/2025&nbsp; **Status:** Open
 > <br><br> **Comment:** Hello admin, could you please add a local user "Richard" to the Windows computer. Create the account so that the user will have to change their password the first time they login. In addition, please make the user a local administrator.
 
@@ -22,3 +22,15 @@ Solution Methodology:
 2. In 'Users' Folder right click to create a new user named 'Richard', set a password and make sure the option 'User must change password at next logon' is checked.
 3. In 'Groups' Folder select the 'Administrators' group and add Richard to the group. Ensure to select 'apply' to these changes.
 4. Restart the computer. Once logged into new user, verify the user's adminstrative privileges by opening the command line as an administrator (right click) and accepting UAC prompt.
+<br>
+
+> **Ticket #4561934:** Add Users to Linux Host
+> <br><br>**Assigned:** Admin&nbsp; **Created:** 05/15/2025&nbsp; **Status:** Open
+> <br><br> **Comment:** Hello admin, please add two users to the Ubuntu Linux Host, Bertram and Elrich (leave all additional details such as last name, room number and phone numbers blank). Please create a password for each of them and expire their password so they need to create one on their first login. Also please create a new folder in the root directory called "Confidential". Make root the owner of the folder with full permissions, however, allow Bertram and Elrich full permissions to the folder. Ensure that everyone else on the computer has no permissions so they can't access the folder. Thanks!
+
+Solution Methodology:
+1. T
+2. I
+3. I
+4. R
+<br>
