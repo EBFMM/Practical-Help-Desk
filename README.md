@@ -26,7 +26,7 @@ Solution Methodology:
 
 > **Ticket #4561934:** Add Users to Linux Host
 > <br><br>**Assigned:** Admin&nbsp; **Created:** 05/15/2025&nbsp; **Status:** Open
-> <br><br> **Comment:** Hello admin, please add two users to the Ubuntu Linux Host, Bertram and Elrich (leave all additional details such as last name, room number and phone numbers blank). Please create a password for each of them and expire their password so they need to create one on their first login. Also please create a new folder in the root directory called "Confidential". Make root the owner of the folder with full permissions, however, allow Bertram and Elrich full permissions to the folder. Ensure that everyone else on the computer has no permissions so they can't access the folder. Thanks!
+> <br><br> **Comment:** Hello admin, please add two users to the Ubuntu Linux Host, Bertram and Erlich (leave all additional details such as last name, room number and phone numbers blank). Please create a password for each of them and expire their password so they need to create one on their first login. Also please create a new folder in the root directory called "Confidential". Make root the owner of the folder with full permissions, however, allow Bertram and Erlich full permissions to the folder. Ensure that everyone else on the computer has no permissions so they can't access the folder. Thanks!
 
 Solution Methodology:
 1. T
