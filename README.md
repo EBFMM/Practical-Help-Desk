@@ -33,5 +33,5 @@ Solution Methodology:
 2. Expire passwords using 'sudo passwd --expire bertram' and 'sudo passwd --expire erlich' so that a new password must be created upon first login. 
 3. The command 'cd /' will take you to root directory, from here 'sudo mkdir Confidential' will create a new directory 'Confidential' in the root directory.
 4. Create a group for the created users using the command 'sudo addgroup confidential', add bertram and erlich to this group using 'sudo usermod -aG confidential bertram' and 'sudo usermod -aG confidential erlich'.
-5. Owner is already set as root, give Bertram and Erlich full permissions by changing the directory group using 'sudo chgrp confidential Confidential' Owner (root) will have full permissions read(4)+write(2)+execute(1)=7, the group will have same permissions. Everyone else is given no permissions refelcted by value of 0 using the command 'sudo chmod 770 Confidential' to set these permissions.
+5. Owner is already set as root, give Bertram and Erlich full permissions by changing the directory group using 'sudo chgrp confidential Confidential' Owner (root) will have full permissions read(4)+write(2)+execute(1)=7, the group will have same permissions. Everyone else is given no permissions refelcted by value of 0 using the command 'sudo chmod 770 Confidential' to set these permissions for the directory.
 <br>
