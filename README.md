@@ -29,8 +29,9 @@ Solution Methodology:
 > <br><br> **Comment:** Hello admin, please add two users to the Ubuntu Linux Host, Bertram and Erlich (leave all additional details such as last name, room number and phone numbers blank). Please create a password for each of them and expire their password so they need to create one on their first login. Also please create a new folder in the root directory called "Confidential". Make root the owner of the folder with full permissions, however, allow Bertram and Erlich full permissions to the folder. Ensure that everyone else on the computer has no permissions so they can't access the folder. Thanks!
 
 Solution Methodology:
-1. T
-2. I
-3. I
-4. R
+1. Add users Bertram and Erlich using the command 'sudo adduser bertram' and set an initial password. Then 'sudo adduser erlich' and set an intial password.
+2. Expire passwords using 'sudo passwd --expire bertram' and 'sudo passwd --expire erlich' so that a new password must be created upon first login. 
+3. The command 'cd /' will take you to root directory, from here 'sudo mkdir Confidential' will create a new directory 'Confidential' in the root directory.
+4. Create a group for the created users using the command 'sudo addgroup confidential', add bertram and erlich to this group using 'sudo usermod -aG confidential bertram' and 'sudo usermod -aG confidential erlich'.
+5. Owner is already set as root, give Bertram and Erlich full permissions by changing the directory group using 'sudo chgrp confidential Confidential' Owner (root) will have full permissions read(4)+write(2)+execute(1)=7, the group will have same permissions. Everyone else is given no permissions refelcted by value of 0 using the command 'sudo chmod 770 Confidential' to set these permissions.
 <br>
